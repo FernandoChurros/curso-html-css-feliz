@@ -1,0 +1,12 @@
+.corpo {
+	background: #3A4042;
+	color: #f5f5f5;
+	font-family: "Fira Code";
+}
+
+.divisor {
+	height: 10rem;
+	background: #000;
+	border-top: 10px solid #7400D9;
+	border-bottom: 10px solid #7400D9;
+}

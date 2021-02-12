@@ -1,0 +1,6 @@
+.banner {
+	background: center/cover url("../../img/Hunter_x_Hunter__Kurapika_Gon_Freecss_Killua_Zaoldyeck_Leorio___6361x4455.jpg");
+	border-top: 10px solid #000;
+	border-bottom: 10px solid #000;
+	height: calc(100vh - 5rem - 20px); /* 5rem do cabeçalho, e 20px da borda superior, e inferior
+}

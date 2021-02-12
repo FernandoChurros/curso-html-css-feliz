@@ -1,0 +1,23 @@
+
+.contatos__div {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 1rem;
+}
+
+.contatos__div label {
+	font-family: "Fira Codes"
+}
+
+.contatos__input {
+	border: 5px solid #000;
+	margin-top: .5rem;
+	padding: 5px;
+
+}
+
+#msm {
+	border: 5px solid #000;
+
+	margin-top: .5rem;
+}

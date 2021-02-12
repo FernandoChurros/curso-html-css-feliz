@@ -1,0 +1,10 @@
+.nav__item {
+	color: #CC3300;
+	margin: 0 2rem 0 0;
+	text-shadow: 2px 2px 0 #000;
+}
+.nav__item a {
+	color: #f5f5f5;
+	text-decoration: none;
+	font-weight: bold;
+}

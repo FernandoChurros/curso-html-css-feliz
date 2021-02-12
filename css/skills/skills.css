@@ -1,0 +1,26 @@
+.skills {
+	background: #C30;
+	font-family: "Press Start 2P";
+	height: 30rem;
+}
+.skill-flex {
+	align-items: center;
+	display: flex;
+	justify-content: space-around;
+	height: calc(100% - 11.425rem);
+}
+.div__skill {
+	display: flex;
+	align-items: center;
+}
+.div__skill img {
+	margin-right: 1rem;
+}
+.progress-bar {
+	border: 5px solid #000;
+	height: 20px;
+	margin-top: .5rem;
+}
+.progress-bar::-moz-progress-bar {
+	background-color: #7400D9;
+}

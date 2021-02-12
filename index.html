@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Fernando Churros</title>
+	<link rel="icon" href="img/icon__header.png">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/corpo.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/header/cabecalho.css">
+	<link rel="stylesheet" href="css/header/nav/nav.css">
+	<link rel="stylesheet" href="css/header/nav/nav__lista.css">
+	<link rel="stylesheet" href="css/header/nav/nav__item.css">
+	<link rel="stylesheet" href="css/botao</div>.css">
+	<link rel="stylesheet" href="css/banner/banner.css">
+	<link rel="stylesheet" href="css/banner/banner__info.css">
+	<link rel="stylesheet" href="css/titulo--h2.css">
+	<link rel="stylesheet" href="css/skills/skills.css">
+	<link rel="stylesheet" href="css/skills/skills__lista.css">
+	<link rel="stylesheet" href="css/skills/skills__item.css">
+	<link rel="stylesheet" href="css/sobre/sobre.css">
+	<link rel="stylesheet" href="css/sobre/sobre__paragrafo.css">
+	<link rel="stylesheet" href="css/contatos/contatos.css">
+	<link rel="stylesheet" href="css/contatos/contatos__div.css">
+	<link rel="stylesheet" href="css/contatos/contatos__form.css">
+	<link rel="stylesheet" href="css/rodape.css">
+</head>
+<body class="corpo>
+	<header class="cabecalho">
+		<img style="background: center/cover url('./img/icon__header.png'); width: 70px; height: 70px;">
+		<nav class="nav">
+			<ul class="nav__lista">
+				<li class="nav__item"><a href="#skillsID">Conhecimentos</a></li>
+				<li class="nav__item"><a href="#sobreID">Sobre</a></li>
+				<li class="nav__item"><a href="#contatosID">Contato</a></li>
+			</ul>
+			<button class="botao" type="button" download="">Download CV</button>
+		</nav>
+	</header>
+
+	<main>
+		<section class="banner">
+			<div class="banner__all">
+				<div class="banner__info">
+					<h1 class="banner__info--h1">Fernando Churros</h1>
+					<p class="banner__info--h2">FrontEnd Júnior</p>
+				</div>
+				<div class="botao__flex">
+					<button class="botao" type="button" download="">Download CV</button>
+					<button class="botao" type="button">Contato</button>
+				</div>
+			</div>
+		</section>
+
+		<section id="skillsID"  class="skills">
+			<h2 class="titulo--h2">Conhecimentos</h2>
+			<ul class="skills__lista">
+				<li class="skills__item"><img src="img/icon/html__icon.png" alt="logo HTML"><br/>HTML <br><span>&lt!-- Estudadando --&gt<span>
+				</li>
+				<li class="skills__item"><img src="img/icon/css__icon.png" alt="logo CSS"><br/>CSS <br><span>/* Estudando */</span>
+				</li>
+			</ul>
+			<ul class="skills__lista">
+				<li class="skills__item"><img src="img/icon/js__icon.png" alt="logo JavaScript"><br/>JS <br><span>// Estudando</span>
+				</li>
+			</ul>
+		</section>
+
+		<div class="divisor"></div>
+
+		<section id="sobreID" class="sobre">
+			<h2 class="titulo--h2">Sobre</h2>
+			<p class="sobre__paragrafo">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+		</section>
+
+		<section id="contatosID" class="contatos">
+			<h2 class="titulo--h2">Contato</h2>
+
+			<form class="contatos__form" action="">
+				<fieldset>
+
+					<div class="contatos__div">
+						<label for="nome">Nome </label>
+						<input id="nome" class="contatos__input" type="text" required>
+					</div>
+
+					<div class="contatos__div">
+						<label for="e-mail">E-mail </label>	
+						<input id="e-mail" class="contatos__input" type="email" required>
+					</div>
+
+					<div class="contatos__div">
+						<label for="msm">Mensagem </label>
+						<textarea name="mensagem" id="msm" cols="30" rows="15" required></textarea>
+					</div>
+
+					<div class="contatos__div">
+						<button class=" botao botao--submit" type="submit">Enviar</button>
+					</div>
+
+				</fieldset>
+			</form>
+		</section>
+
+		<footer class="rodape">
+			<a href="https://twitter.com/FernandoChurros" target="_blank"><img src="img/icon/twitter__icon.png" alt="twitter"></a>
+			<a href="https://discord.com/channels/@me" target="_blank"><img src="img/icon/discord__icon.png" alt="discord"></a>
+		</footer>
+	</main>
+</body>
+</html>
