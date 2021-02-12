@@ -23,10 +23,10 @@
 	transform: scale(1.030);
 }
 
-.botao {
+.botao:not(.botao--submit) {
 	transition: .5s;
 }
 
-.botao:hover {
+.botao:hover:not(.botao--submit) {
 	transform: rotate(360deg);
 }
